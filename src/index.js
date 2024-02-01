@@ -52,12 +52,20 @@ function App() {
         <div>
             <h1>Hello React!</h1>
             <Pizza />
+            <Pizza />
+            <Pizza />
         </div>
     );
 }
 
 function Pizza() {
-    return <h2>Pizza</h2>
+    return (
+        <div>
+            <img src='pizzas/spinaci.jpg' alt='pizza spinaci' />
+            <h2>Pizza Spinaci</h2>
+            <p>Tomato, mozarella, spinach, and ricotta cheese</p>
+        </div>
+    )
 }
 
 // React v18
